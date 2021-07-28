@@ -1,0 +1,23 @@
+
+.seccionP{
+    min-height: 100vh;
+    padding-top: 50px;
+    display: flex;
+   
+
+    .seccionP__img{
+        width: 50%;
+           
+    }
+
+    .seccionP__texto{
+
+        margin-left: 2rem;
+        margin-top: 2rem;
+
+        h1{
+            font-size: 6rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}

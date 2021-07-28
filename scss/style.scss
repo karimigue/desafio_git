@@ -1,0 +1,27 @@
+
+@import 'https://fonts.googleapis.com/css2? family = Roboto: wght @ 100; 300; 700 & display = swap';
+@import "base/colores";
+@import "layout/_header";
+@import "layout/seccionP";
+@import "layout/footer";
+
+
+
+/*estilos generales*/ 
+
+*{
+    /*Reseteo CSS*/
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    font-size: 20px;
+    background-color: $colorPrincipal;
+    color: $titulos;
+}
+
+
+

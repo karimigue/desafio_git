@@ -1,0 +1,78 @@
+
+/*estilos del header*/
+
+.header{
+    background-color: $grisClaro;
+
+    .header__img{
+        width: 150px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        
+     
+    }
+    .menu{
+
+        width: 50%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+
+        .menu__enlace{
+            text-decoration: none;
+            color: $colorTerciario;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none; 
+            font-weight: 700; 
+
+            &:hover{
+                color: $colorPrincipal;
+             
+            }
+            
+        }
+        
+    }
+    
+}
+
+/* Menú principal */
+
+ 
+ 
+.menu  li{
+   
+    position: relative;
+    display: inline-block;
+    
+}
+ 
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+ 
+}
+
+ 
+/* Submenú */
+.subMenu{
+    position: absolute;
+    background-color: grey;
+    display: none;
+}
+ 
+.subMenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+}
+ 
+.menu li:hover .subMenu{
+    display: block;
+}
+ 
+.header a{
+    color: black;
+}
+
+
